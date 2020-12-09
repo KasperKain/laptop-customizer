@@ -41,9 +41,9 @@ const features = {
   ],
 };
 
-const USCurrencyFormat = new Intl.NumberFormat('en-US', {
+export const USCurrencyFormat = new Intl.NumberFormat('en-US', {
   style: 'currency',
   currency: 'USD',
 });
 
-export default { features, USCurrencyFormat };
+export default { features };
